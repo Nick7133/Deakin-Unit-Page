@@ -1,21 +1,23 @@
 h1 {
-  font-size: 28px;
-  font-family: Arial;
-  margin-bottom: 20px;
+ font-size: 40px;
+ font-family: Arial
+}
+h2 {
+ font-size: 25px;
+ font-family: Arial
 }
 h3 {
-  font-family: Arial;
-  margin-bottom: 4px;
+ font-family: Arial
 }
-.highlight {
-  text-decoration: underline;
+p {
+ font-size: 14px;
+ font-family: Arial
 }
-.unit-details {
-  border-collapse: collapse;
-  margin-top: 20px;
+th, td {
+ padding: 8px;
+ text-align: left;
+ border-bottom: 1px solid #ddd;
+ font-family: Arial
 }
-.unit-details th, .unit-details td {
-  border: 1px solid #cccccc;
-  padding: 8px;
-  text-align: left;
-}
+
+tr:nth-child(odd) {background-color: #f2f2f2;}
